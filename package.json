@@ -1,0 +1,23 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "A simple node server app with client",
+  "main": "src/main.js",
+  "scripts": {
+    "serve": "nodemon src/main.js",
+    "lint": "eslint ./ --ext .js",
+    "test": "test"
+  },
+  "author": "Richard Falardeau",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-require": "^0.0.1",
+    "eslint-plugin-vue": "^8.3.0",
+    "nodemon": "^2.0.15"
+  }
+}

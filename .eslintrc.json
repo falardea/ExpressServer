@@ -1,0 +1,22 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "standard"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+        "semi": ["warn", "always"],
+        "indent": ["error", 4],
+        "quotes": ["error", "single", {"allowTemplateLiterals":  true}]
+    }
+}
