@@ -8,23 +8,44 @@ const port = 3000;
 const staticPathPrefix = './src/client/';
 
 const server = http.createServer((req, res) => {
-    console.log(`page request: ${req.url}`);
+    console.log(`page requested: ${req.url}`);
     let htmlFile;
 
-    if (req.url === '/') {
-        htmlFile = 'index.html';
-        res.statusCode = 200;
-    } else if (req.url.endsWith('.html')) {
-        htmlFile = req.url.slice(1);
-        res.statusCode = 200;
-    } else {
-        htmlFile = 'PageNotFound.html';
-        res.statusCode = 404;
+    switch (req.url) {
+        case '/':
+            htmlFile = 'index.html';
+            break;
+        case '/about':
+            htmlFile = 'about.html';
+            break;
+        case '/services':
+            htmlFile = 'services.html';
+            break;
+        default:
+            break;
     }
-
     res.setHeader('Content-Type', 'text/html');
+    if (htmlFile) {
+        render(res, htmlFile);
+    } else {
+        render404(res);
+    }
+});
+
+function render (res, htmlFile) {
     if (fs.existsSync(`${staticPathPrefix}${htmlFile}`)) {
-        fs.createReadStream(`${staticPathPrefix}${htmlFile}`).pipe(res); // pipe the file into the response object
+        res.statusCode = 200;
+        fs.createReadStream(`${staticPathPrefix}${htmlFile}`).pipe(res);
+    } else {
+        render404(res);
+    }
+}
+
+function render404 (res) {
+    const htmlFile = 'PageNotFound.html';
+    if (fs.existsSync(`${staticPathPrefix}${htmlFile}`)) {
+        res.statusCode = 404;
+        fs.createReadStream(`${staticPathPrefix}${htmlFile}`).pipe(res);
     } else {
         res.statusCode = 404;
         res.end('<!DOCTYPE html><html lang="en"><head>' +
@@ -34,7 +55,7 @@ const server = http.createServer((req, res) => {
             '</body>' +
             '</html>');
     }
-});
+}
 
 server.listen(port, host, () => {
     console.log(`Hello simple world of npm`);
