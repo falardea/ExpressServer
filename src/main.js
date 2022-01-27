@@ -9,30 +9,17 @@ const staticPathPrefix = './src/client/';
 
 const server = http.createServer((req, res) => {
     console.log(`page requested: ${req.url}`);
-    let htmlFile;
+    const routerMap = {
+        '': 'index.html',
+        'about': 'about.html',
+        'services': 'services.html'
+    }
 
-    switch (req.url) {
-        case '/':
-            htmlFile = 'index.html';
-            break;
-        case '/about':
-            htmlFile = 'about.html';
-            break;
-        case '/services':
-            htmlFile = 'services.html';
-            break;
-        default:
-            break;
-    }
-    res.setHeader('Content-Type', 'text/html');
-    if (htmlFile) {
-        render(res, htmlFile);
-    } else {
-        render404(res);
-    }
+    render(res, routerMap[req.url.slice(1)]);
 });
 
 function render (res, htmlFile) {
+    res.setHeader('Content-Type', 'text/html');
     if (fs.existsSync(`${staticPathPrefix}${htmlFile}`)) {
         res.statusCode = 200;
         fs.createReadStream(`${staticPathPrefix}${htmlFile}`).pipe(res);
