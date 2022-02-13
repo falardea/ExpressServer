@@ -1,0 +1,398 @@
+2022-01-13T10:05:01.19 log         previous log file deleted                    0D3F 0000 0000 0000
+2022-01-13T10:08:52.82 update      interlock config FanClosed                   0D3F 0000 0000 0000
+2022-01-13T10:08:53.62 update      interlock config FlowClosed                  0D3F 0000 0000 0000
+2022-01-13T10:08:54.53 update      interlock enable FanEnable                   0D1F 0000 0000 0000
+2022-01-13T10:08:55.16 update      interlock enable FlowEnable                  0D0F 0000 0000 0000
+2022-01-14T07:19:15.72 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-14T07:19:15.73 controller  PID: 3912                                    0000 0000 0000 0000
+2022-01-14T07:19:15.73 controller  Start server                                 0000 0000 0000 0000
+2022-01-14T07:19:15.74 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-14T07:19:15.74 initialize  Log 500 bytes                                0000 0000 0000 0000
+2022-01-14T07:19:16.26 initialize  Read configuration                           0D0F 0000 0000 0000
+2022-01-14T07:19:16.26 initialize  Verify configuration                         0D0F 0000 0000 0000
+2022-01-14T07:19:16.77 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-14T07:19:17.27 initialize  Debug - override hardware failures           0D0F 0000 0000 0000
+2022-01-14T07:21:11.40 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-14T07:21:11.41 controller  PID: 18072                                   0000 0000 0000 0000
+2022-01-14T07:21:11.43 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-14T07:21:11.41 controller  Start server                                 0000 0000 0000 0000
+2022-01-14T07:21:11.43 initialize  Log 1400 bytes                               0000 0000 0000 0000
+2022-01-14T07:21:11.94 initialize  Read configuration                           0D0F 0000 0000 0000
+2022-01-14T07:21:11.94 initialize  Verify configuration                         0D0F 0000 0000 0000
+2022-01-14T07:21:12.44 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-14T07:21:12.95 initialize  Debug - override hardware failures           0D0F 0000 0000 0000
+2022-01-14T07:23:58.50 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-14T07:23:58.50 controller  Start server                                 0000 0000 0000 0000
+2022-01-14T07:23:58.52 initialize  Log 2300 bytes                               0000 0000 0000 0000
+2022-01-14T07:23:58.52 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-14T07:23:58.50 controller  PID: 21316                                   0000 0000 0000 0000
+2022-01-14T07:23:59.03 initialize  Read configuration                           0D0F 0000 0000 0000
+2022-01-14T07:23:59.03 initialize  Verify configuration                         0D0F 0000 0000 0000
+2022-01-14T07:23:59.54 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-14T07:24:00.05 initialize  Debug - override hardware failures           0D0F 0000 0000 0000
+2022-01-14T07:26:21.13 controller  PID: 2380                                    0000 0000 0000 0000
+2022-01-14T07:26:21.13 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-14T07:26:21.13 controller  Start server                                 0000 0000 0000 0000
+2022-01-14T07:26:21.15 initialize  Log 3200 bytes                               0000 0000 0000 0000
+2022-01-14T07:26:21.15 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-14T07:26:21.66 initialize  Read configuration                           0D0F 0000 0000 0000
+2022-01-14T07:26:21.66 initialize  Verify configuration                         0D0F 0000 0000 0000
+2022-01-14T07:26:22.17 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-14T07:26:22.69 initialize  Debug - override hardware failures           0D0F 0000 0000 0000
+2022-01-14T07:44:47.74 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-14T07:44:47.75 controller  PID: 3480                                    0000 0000 0000 0000
+2022-01-14T07:44:47.76 initialize  Log 4100 bytes                               0000 0000 0000 0000
+2022-01-14T07:44:47.75 controller  Start server                                 0000 0000 0000 0000
+2022-01-14T07:44:47.76 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-14T07:44:48.27 initialize  Read configuration                           0D0F 0000 0000 0000
+2022-01-14T07:44:48.27 initialize  Verify configuration                         0D0F 0000 0000 0000
+2022-01-14T07:44:48.78 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-14T07:44:49.29 initialize  Debug - override hardware failures           0D0F 0000 0000 0000
+2022-01-14T07:45:31.78 controller  PID: 19900                                   0000 0000 0000 0000
+2022-01-14T07:45:31.77 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-14T07:45:31.80 initialize  Log 5000 bytes                               0000 0000 0000 0000
+2022-01-14T07:45:31.80 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-14T07:45:31.78 controller  Start server                                 0000 0000 0000 0000
+2022-01-14T07:45:32.31 initialize  Read configuration                           0D0F 0000 0000 0000
+2022-01-14T07:45:32.31 initialize  Verify configuration                         0D0F 0000 0000 0000
+2022-01-14T07:45:32.82 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-14T07:45:33.34 initialize  Debug - override hardware failures           0D0F 0000 0000 0000
+2022-01-14T07:47:29.45 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-14T07:47:29.46 controller  PID: 21484                                   0000 0000 0000 0000
+2022-01-14T07:47:29.46 controller  Start server                                 0000 0000 0000 0000
+2022-01-14T07:47:29.47 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-14T07:47:29.47 initialize  Log 5900 bytes                               0000 0000 0000 0000
+2022-01-14T07:47:29.97 initialize  Read configuration                           0D0F 0000 0000 0000
+2022-01-14T07:47:29.97 initialize  Verify configuration                         0D0F 0000 0000 0000
+2022-01-14T07:47:30.49 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-14T07:47:30.99 initialize  Debug - override hardware failures           0D0F 0000 0000 0000
+2022-01-14T07:52:22.51 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-14T07:52:22.52 controller  PID: 19656                                   0000 0000 0000 0000
+2022-01-14T07:52:22.52 controller  Start server                                 0000 0000 0000 0000
+2022-01-14T07:52:22.53 initialize  Log 6800 bytes                               0000 0000 0000 0000
+2022-01-14T07:52:22.53 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-14T07:52:23.05 initialize  Read configuration                           0D0F 000A 0000 0000
+2022-01-14T07:52:23.05 initialize  Verify configuration                         0D0F 000A 0000 0000
+2022-01-14T07:52:23.56 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-14T07:52:24.06 initialize  Debug - override hardware failures           0D0F 000A 0000 0000
+2022-01-14T07:55:01.72 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-14T07:55:01.72 controller  PID: 8016                                    0000 0000 0000 0000
+2022-01-14T07:55:01.72 controller  Start server                                 0000 0000 0000 0000
+2022-01-14T07:55:01.74 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-14T07:55:01.74 initialize  Log 7700 bytes                               0000 0000 0000 0000
+2022-01-14T07:55:02.24 initialize  Read configuration                           0D0F 000A 0000 0000
+2022-01-14T07:55:02.24 initialize  Verify configuration                         0D0F 000A 0000 0000
+2022-01-14T07:55:02.75 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-14T07:55:03.26 initialize  Debug - override hardware failures           0D0F 000A 0000 0000
+2022-01-14T07:55:14.78 update      interlock config Interlock2Closed            0D0F 000A 0000 0000
+2022-01-14T07:55:15.41 update      interlock config Interlock4Closed            0D0F 000A 0000 0000
+2022-01-14T07:55:57.42 controller  PID: 12712                                   0000 0000 0000 0000
+2022-01-14T07:55:57.42 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-14T07:55:57.43 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-14T07:55:57.43 initialize  Log 8800 bytes                               0000 0000 0000 0000
+2022-01-14T07:55:57.42 controller  Start server                                 0000 0000 0000 0000
+2022-01-14T07:55:57.94 initialize  Read configuration                           0D0F 0000 0000 0000
+2022-01-14T07:55:57.94 initialize  Verify configuration                         0D0F 0000 0000 0000
+2022-01-14T07:55:58.48 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-14T07:55:58.98 initialize  Debug - override hardware failures           0D0F 0000 0000 0000
+2022-01-14T08:01:47.30 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-14T08:01:47.30 controller  Start server                                 0000 0000 0000 0000
+2022-01-14T08:01:47.30 controller  PID: 11820                                   0000 0000 0000 0000
+2022-01-14T08:01:47.32 initialize  Log 9700 bytes                               0000 0000 0000 0000
+2022-01-14T08:01:47.32 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-14T08:01:47.83 initialize  Read configuration                           0D0F 0000 0000 0000
+2022-01-14T08:01:47.84 initialize  Verify configuration                         0D0F 0000 0000 0000
+2022-01-14T08:01:48.35 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-14T08:01:48.85 initialize  Debug - override hardware failures           0D0F 0000 0000 0000
+2022-01-14T08:03:21.70 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-14T08:03:21.71 controller  PID: 12164                                   0000 0000 0000 0000
+2022-01-14T08:03:21.72 initialize  Log 10600 bytes                              0000 0000 0000 0000
+2022-01-14T08:03:21.72 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-14T08:03:21.71 controller  Start server                                 0000 0000 0000 0000
+2022-01-14T08:03:22.23 initialize  Read configuration                           0D0F 0000 0000 0000
+2022-01-14T08:03:22.23 initialize  Verify configuration                         0D0F 0000 0000 0000
+2022-01-14T08:03:22.74 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-14T08:03:23.25 initialize  Debug - override hardware failures           0D0F 0000 0000 0000
+2022-01-17T15:40:08.77 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-17T15:40:08.77 controller  PID: 13552                                   0000 0000 0000 0000
+2022-01-17T15:40:08.77 controller  Start server                                 0000 0000 0000 0000
+2022-01-17T15:40:08.78 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-17T15:40:08.78 initialize  Log 11500 bytes                              0000 0000 0000 0000
+2022-01-17T15:40:09.30 initialize  Read configuration                           0D0F 0000 0000 0000
+2022-01-17T15:40:09.31 initialize  Verify configuration                         0D0F 0000 0000 0000
+2022-01-17T15:40:09.82 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-17T15:40:10.33 initialize  Debug - override hardware failures           0D0F 0000 0000 0000
+2022-01-17T15:43:30.77 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-17T15:43:30.77 controller  PID: 5212                                    0000 0000 0000 0000
+2022-01-17T15:43:30.78 initialize  Log 12400 bytes                              0000 0000 0000 0000
+2022-01-17T15:43:30.78 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-17T15:43:30.77 controller  Start server                                 0000 0000 0000 0000
+2022-01-17T15:43:31.29 initialize  Read configuration                           0D0F 0000 0000 0000
+2022-01-17T15:43:31.29 initialize  Verify configuration                         0D0F 0000 0000 0000
+2022-01-17T15:43:31.79 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-17T15:43:32.30 initialize  Debug - override hardware failures           0D0F 0000 0000 0000
+2022-01-18T14:06:55.71 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-18T14:06:55.72 controller  PID: 3776                                    0000 0000 0000 0000
+2022-01-18T14:06:55.72 controller  Start server                                 0000 0000 0000 0000
+2022-01-18T14:06:55.73 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-18T14:06:55.73 initialize  Log 13300 bytes                              0000 0000 0000 0000
+2022-01-18T14:06:56.24 initialize  Read configuration                           0D0F 0000 0000 0000
+2022-01-18T14:06:56.24 initialize  Verify configuration                         0D0F 0000 0000 0000
+2022-01-18T14:06:56.75 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-18T14:06:57.27 initialize  Debug - override hardware failures           0D0F 0000 0000 0000
+2022-01-18T14:08:15.55 reset                                                    0D0F 0000 0000 0000
+2022-01-18T14:08:15.60 reboot                                                   0D0F 0000 0000 0000
+2022-01-18T14:14:51.13 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-18T14:14:51.13 controller  PID: 20444                                   0000 0000 0000 0000
+2022-01-18T14:14:51.15 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-18T14:14:51.15 initialize  Log 14400 bytes                              0000 0000 0000 0000
+2022-01-18T14:14:51.13 controller  Start server                                 0000 0000 0000 0000
+2022-01-18T14:14:51.65 initialize  Read configuration                           0D0F 0000 0000 0000
+2022-01-18T14:14:51.65 initialize  Verify configuration                         0D0F 0000 0000 0000
+2022-01-18T14:14:52.16 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-18T14:14:52.66 initialize  Debug - override hardware failures           0D0F 0000 0000 0000
+2022-01-19T08:22:50.60 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-19T08:22:50.60 controller  PID: 19288                                   0000 0000 0000 0000
+2022-01-19T08:22:50.60 controller  Start server                                 0000 0000 0000 0000
+2022-01-19T08:22:50.62 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-19T08:22:50.62 initialize  Log 15300 bytes                              0000 0000 0000 0000
+2022-01-19T08:22:51.13 initialize  Read configuration                           0D2F 0000 0000 0000
+2022-01-19T08:22:51.13 initialize  Verify configuration                         0D2F 0000 0000 0000
+2022-01-19T08:22:51.64 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-19T08:22:52.15 initialize  Debug - override hardware failures           0D2F 0000 0000 0000
+2022-01-20T08:55:45.34 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-20T08:55:45.37 initialize  Log 16200 bytes                              0000 0000 0000 0000
+2022-01-20T08:55:45.34 controller  PID: 17784                                   0000 0000 0000 0000
+2022-01-20T08:55:45.34 controller  Start server                                 0000 0000 0000 0000
+2022-01-20T08:55:45.37 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-20T08:55:45.88 initialize  Read configuration                           0D2F 0000 0000 0000
+2022-01-20T08:55:45.88 initialize  Verify configuration                         0D2F 0000 0000 0000
+2022-01-20T08:55:46.40 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-20T08:55:46.90 initialize  Debug - override hardware failures           0D2F 0000 0000 0000
+2022-01-20T09:18:22.50 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-20T09:18:22.50 controller  PID: 1284                                    0000 0000 0000 0000
+2022-01-20T09:18:22.52 initialize  Log 17100 bytes                              0000 0000 0000 0000
+2022-01-20T09:18:22.50 controller  Start server                                 0000 0000 0000 0000
+2022-01-20T09:18:22.51 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-20T09:18:23.02 initialize  Read configuration                           0D2F 0000 0000 0000
+2022-01-20T09:18:23.02 initialize  Verify configuration                         0D2F 0000 0000 0000
+2022-01-20T09:18:23.52 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-20T09:18:24.03 initialize  Debug - override hardware failures           0D2F 0000 0000 0000
+2022-01-20T09:19:06.99 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-20T09:19:06.99 controller  PID: 21440                                   0000 0000 0000 0000
+2022-01-20T09:19:07.00 initialize  Log 18000 bytes                              0000 0000 0000 0000
+2022-01-20T09:19:06.99 controller  Start server                                 0000 0000 0000 0000
+2022-01-20T09:19:07.00 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-20T09:19:07.51 initialize  Read configuration                           0D2F 0000 0000 0000
+2022-01-20T09:19:07.51 initialize  Verify configuration                         0D2F 0000 0000 0000
+2022-01-20T09:19:08.01 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-20T09:19:08.52 initialize  Debug - override hardware failures           0D2F 0000 0000 0000
+2022-01-20T09:24:32.66 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-20T09:24:32.66 controller  PID: 8684                                    0000 0000 0000 0000
+2022-01-20T09:24:32.66 controller  Start server                                 0000 0000 0000 0000
+2022-01-20T09:24:32.67 initialize  Log 18900 bytes                              0000 0000 0000 0000
+2022-01-20T09:24:32.67 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-20T09:24:33.19 initialize  Read configuration                           0D2F 0000 0000 0000
+2022-01-20T09:24:33.19 initialize  Verify configuration                         0D2F 0000 0000 0000
+2022-01-20T09:24:33.70 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-20T09:24:34.21 initialize  Debug - override hardware failures           0D2F 0000 0000 0000
+2022-01-20T09:27:38.73 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-20T09:27:38.73 controller  PID: 19196                                   0000 0000 0000 0000
+2022-01-20T09:27:38.74 initialize  Log 19800 bytes                              0000 0000 0000 0000
+2022-01-20T09:27:38.74 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-20T09:27:38.73 controller  Start server                                 0000 0000 0000 0000
+2022-01-20T09:27:39.25 initialize  Read configuration                           0D2F 0000 0000 0000
+2022-01-20T09:27:39.25 initialize  Verify configuration                         0D2F 0000 0000 0000
+2022-01-20T09:27:39.76 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-20T09:27:40.28 initialize  Debug - override hardware failures           0D2F 0000 0000 0000
+2022-01-20T09:28:33.19 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-20T09:28:33.19 controller  PID: 17784                                   0000 0000 0000 0000
+2022-01-20T09:28:33.20 initialize  Log 20700 bytes                              0000 0000 0000 0000
+2022-01-20T09:28:33.19 controller  Start server                                 0000 0000 0000 0000
+2022-01-20T09:28:33.20 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-20T09:28:33.71 initialize  Read configuration                           0D2F 0000 0000 0000
+2022-01-20T09:28:33.72 initialize  Verify configuration                         0D2F 0000 0000 0000
+2022-01-20T09:28:34.22 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-20T09:28:34.73 initialize  Debug - override hardware failures           0D2F 0000 0000 0000
+2022-01-20T09:29:32.56 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-20T09:29:32.56 controller  PID: 20804                                   0000 0000 0000 0000
+2022-01-20T09:29:32.56 controller  Start server                                 0000 0000 0000 0000
+2022-01-20T09:29:32.58 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-20T09:29:32.58 initialize  Log 21600 bytes                              0000 0000 0000 0000
+2022-01-20T09:29:33.08 initialize  Read configuration                           0D2F 0000 0000 0000
+2022-01-20T09:29:33.08 initialize  Verify configuration                         0D2F 0000 0000 0000
+2022-01-20T09:29:33.59 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-20T09:29:34.10 initialize  Debug - override hardware failures           0D2F 0000 0000 0000
+2022-01-20T09:30:22.83 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-20T09:30:22.83 controller  PID: 19416                                   0000 0000 0000 0000
+2022-01-20T09:30:22.85 initialize  Log 22500 bytes                              0000 0000 0000 0000
+2022-01-20T09:30:22.83 controller  Start server                                 0000 0000 0000 0000
+2022-01-20T09:30:22.85 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-20T09:30:23.36 initialize  Read configuration                           0D2F 0000 0000 0000
+2022-01-20T09:30:23.36 initialize  Verify configuration                         0D2F 0000 0000 0000
+2022-01-20T09:30:23.87 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-20T09:30:24.38 initialize  Debug - override hardware failures           0D2F 0000 0000 0000
+2022-01-20T09:31:03.97 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-20T09:31:03.98 controller  PID: 8948                                    0000 0000 0000 0000
+2022-01-20T09:31:03.99 initialize  Log 23400 bytes                              0000 0000 0000 0000
+2022-01-20T09:31:03.98 controller  Start server                                 0000 0000 0000 0000
+2022-01-20T09:31:03.99 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-20T09:31:04.51 initialize  Read configuration                           0D2F 0000 0000 0000
+2022-01-20T09:31:04.51 initialize  Verify configuration                         0D2F 0000 0000 0000
+2022-01-20T09:31:05.01 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-20T09:31:05.52 initialize  Debug - override hardware failures           0D2F 0000 0000 0000
+2022-01-20T09:32:03.10 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-20T09:32:03.10 controller  PID: 3280                                    0000 0000 0000 0000
+2022-01-20T09:32:03.11 initialize  Log 24300 bytes                              0000 0000 0000 0000
+2022-01-20T09:32:03.10 controller  Start server                                 0000 0000 0000 0000
+2022-01-20T09:32:03.11 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-20T09:32:03.62 initialize  Read configuration                           0D2F 0000 0000 0000
+2022-01-20T09:32:03.62 initialize  Verify configuration                         0D2F 0000 0000 0000
+2022-01-20T09:32:04.13 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-20T09:32:04.63 initialize  Debug - override hardware failures           0D2F 0000 0000 0000
+2022-01-20T09:32:30.39 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-20T09:32:30.39 controller  PID: 21332                                   0000 0000 0000 0000
+2022-01-20T09:32:30.41 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-20T09:32:30.39 controller  Start server                                 0000 0000 0000 0000
+2022-01-20T09:32:30.41 initialize  Log 25200 bytes                              0000 0000 0000 0000
+2022-01-20T09:32:30.91 initialize  Read configuration                           0D2F 0000 0000 0000
+2022-01-20T09:32:30.91 initialize  Verify configuration                         0D2F 0000 0000 0000
+2022-01-20T09:32:31.43 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-20T09:32:31.94 initialize  Debug - override hardware failures           0D2F 0000 0000 0000
+2022-01-24T07:26:47.82 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-24T07:26:47.82 controller  PID: 16140                                   0000 0000 0000 0000
+2022-01-24T07:26:47.82 controller  Start server                                 0000 0000 0000 0000
+2022-01-24T07:26:47.84 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-24T07:26:47.84 initialize  Log 26100 bytes                              0000 0000 0000 0000
+2022-01-24T07:26:48.34 initialize  Read configuration                           0D2F 0000 0000 0000
+2022-01-24T07:26:48.34 initialize  Verify configuration                         0D2F 0000 0000 0000
+2022-01-24T07:26:48.85 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-24T07:26:49.35 initialize  Debug - override hardware failures           0D2F 0000 0000 0000
+2022-01-24T07:30:57.08 update      interlock enable Temp1Enable                 0D6F 0000 0000 0000
+2022-01-24T07:30:57.41 update      interlock enable Temp2Enable                 0DEF 0000 0000 0000
+2022-01-24T07:31:00.83 update      interlock enable Interlock1Enable            0DEE 0000 0000 0000
+2022-01-24T07:31:01.21 update      interlock enable Interlock2Enable            0DEC 0000 0000 0000
+2022-01-24T07:31:01.60 update      interlock enable Interlock3Enable            0DE8 0000 0000 0000
+2022-01-24T07:31:01.98 update      interlock enable Interlock4Enable            0DE0 0000 0000 0000
+2022-01-24T07:31:02.47 update      interlock enable FanEnable                   0DC0 0000 0000 0000
+2022-01-24T07:31:42.74 update      interlock Temp1HighLimit 51                  0DC0 0000 0000 0000
+2022-01-24T07:31:51.53 update      interlock Temp1LowLimit -1                   0DC0 0000 0000 0000
+2022-01-24T07:31:51.60 update      interlock Temp1LowLimit -1                   0DC0 0000 0000 0000
+2022-01-24T07:32:39.00 update      interlock Temp2HighLimit 50                  0DC0 0000 0000 0000
+2022-01-24T07:33:09.54 update      interlock Temp2LowLimit 10                   0DC0 0000 0000 0000
+2022-01-24T07:33:09.64 update      interlock Temp2LowLimit 10                   0DC0 0000 0000 0000
+2022-01-24T07:53:34.55 bit         MemTest: TBD                                 0DC0 0000 0000 0000
+2022-01-24T07:53:35.05 bit         NVMTest: TBD                                 0DC0 0000 0000 0000
+2022-01-24T07:53:35.56 hardware    Unable to load GPIO module                   0DC0 0000 0000 0000
+2022-01-24T07:53:35.56 bit         GPIO: FAIL                                   0DC0 0000 0000 0000
+2022-01-24T07:53:36.09 hardware    Unable to load I2C modul                     0DC0 0000 0000 0000
+2022-01-24T07:53:36.09 bit         I2C: FAIL                                    0DC0 0000 0000 0000
+2022-01-24T07:53:36.09 bit         Cannot read properties of null (reading 'wri 0DC0 0000 0000 0000
+2022-01-24T07:56:18.40 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-24T07:56:18.41 controller  PID: 17692                                   0000 0000 0000 0000
+2022-01-24T07:56:18.41 controller  Start server                                 0000 0000 0000 0000
+2022-01-24T07:56:18.42 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-24T07:56:18.42 initialize  Log 29000 bytes                              0000 0000 0000 0000
+2022-01-24T07:56:18.92 initialize  Read configuration                           0DC0 0000 0000 0000
+2022-01-24T07:56:18.93 initialize  Verify configuration                         0DC0 0000 0000 0000
+2022-01-24T07:56:19.43 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-24T07:56:19.93 initialize  Debug - override hardware failures           0DC0 0000 0000 0000
+2022-01-24T07:58:11.17 update      interlock Temp1HighLimit 70                  0DC0 0000 0000 0000
+2022-01-24T07:58:16.39 update      interlock Temp1LowLimit -11                  0DC0 0000 0000 0000
+2022-01-24T07:58:16.45 update      interlock Temp1LowLimit -11                  0DC0 0000 0000 0000
+2022-01-24T07:58:22.49 update      interlock Temp2HighLimit 70                  0DC0 0000 0000 0000
+2022-01-24T07:58:35.44 update      interlock Temp2LowLimit -10                  0DC0 0000 0000 0000
+2022-01-24T07:58:38.88 update      interlock Temp1LowLimit -10                  0DC0 0000 0000 0000
+2022-01-24T07:58:38.91 update      interlock Temp1LowLimit -10                  0DC0 0000 0000 0000
+2022-01-25T08:20:05.65 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-25T08:20:05.66 controller  PID: 7128                                    0000 0000 0000 0000
+2022-01-25T08:20:05.66 controller  Start server                                 0000 0000 0000 0000
+2022-01-25T08:20:05.67 initialize  Log 30600 bytes                              0000 0000 0000 0000
+2022-01-25T08:20:05.67 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-25T08:20:06.19 initialize  Read configuration                           0DC0 0000 0000 0000
+2022-01-25T08:20:06.19 initialize  Verify configuration                         0DC0 0000 0000 0000
+2022-01-25T08:20:06.69 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-25T08:20:07.20 initialize  Debug - override hardware failures           0DC0 0000 0000 0000
+2022-01-25T08:20:30.85 update      inhibit enable Inhibit1Enable                0DC0 0000 0001 0000
+2022-01-25T08:20:32.76 update      inhibit enable Inhibit2Enable                0DC0 0000 0003 0000
+2022-01-25T08:20:35.18 update      inhibit delay Inhibit2Delay                  0DC0 0000 0003 0000
+2022-01-28T08:53:33.72 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-28T08:53:33.72 controller  PID: 7316                                    0000 0000 0000 0000
+2022-01-28T08:53:33.74 initialize  Log 31800 bytes                              0000 0000 0000 0000
+2022-01-28T08:53:33.74 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-28T08:53:33.72 controller  Start server                                 0000 0000 0000 0000
+2022-01-28T08:53:34.26 initialize  Read configuration                           0DC0 0000 0003 0000
+2022-01-28T08:53:34.26 initialize  Verify configuration                         0DC0 0000 0003 0000
+2022-01-28T08:53:34.77 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-28T08:56:11.71 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-28T08:56:11.72 controller  PID: 4760                                    0000 0000 0000 0000
+2022-01-28T08:56:11.72 controller  Start server                                 0000 0000 0000 0000
+2022-01-28T08:56:11.73 initialize  Log 32600 bytes                              0000 0000 0000 0000
+2022-01-28T08:56:11.73 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-28T08:56:12.24 initialize  Read configuration                           0DC0 0000 0003 0000
+2022-01-28T08:56:12.24 initialize  Verify configuration                         0DC0 0000 0003 0000
+2022-01-28T08:56:12.75 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-28T09:06:20.98 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-28T09:06:20.98 controller  PID: 24168                                   0000 0000 0000 0000
+2022-01-28T09:06:20.99 initialize  Log 33400 bytes                              0000 0000 0000 0000
+2022-01-28T09:06:20.98 controller  Start server                                 0000 0000 0000 0000
+2022-01-28T09:06:20.99 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-28T09:06:21.50 initialize  Read configuration                           0DC0 0000 0003 0000
+2022-01-28T09:06:21.50 initialize  Verify configuration                         0DC0 0000 0003 0000
+2022-01-28T09:06:22.01 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-28T09:07:12.06 controller  PID: 27096                                   0000 0000 0000 0000
+2022-01-28T09:07:12.06 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-28T09:07:12.06 controller  Start server                                 0000 0000 0000 0000
+2022-01-28T09:07:12.08 initialize  Log 34200 bytes                              0000 0000 0000 0000
+2022-01-28T09:07:12.08 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-28T09:07:12.58 initialize  Read configuration                           0DC0 0000 0003 0000
+2022-01-28T09:07:12.58 initialize  Verify configuration                         0DC0 0000 0003 0000
+2022-01-28T09:07:13.10 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-28T09:09:06.70 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-28T09:09:06.70 controller  PID: 1272                                    0000 0000 0000 0000
+2022-01-28T09:09:06.72 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-28T09:09:06.71 controller  Start server                                 0000 0000 0000 0000
+2022-01-28T09:09:06.72 initialize  Log 35000 bytes                              0000 0000 0000 0000
+2022-01-28T09:09:07.23 initialize  Read configuration                           0DC0 0000 0003 0000
+2022-01-28T09:09:07.23 initialize  Verify configuration                         0DC0 0000 0003 0000
+2022-01-28T09:09:07.74 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-28T09:14:30.30 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-28T09:14:30.30 controller  PID: 29676                                   0000 0000 0000 0000
+2022-01-28T09:14:30.30 controller  Start server                                 0000 0000 0000 0000
+2022-01-28T09:14:30.31 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-28T09:14:30.31 initialize  Log 35800 bytes                              0000 0000 0000 0000
+2022-01-28T09:14:30.82 initialize  Read configuration                           0DC0 0000 0003 0000
+2022-01-28T09:14:30.82 initialize  Verify configuration                         0DC0 0000 0003 0000
+2022-01-28T09:14:31.34 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-28T09:16:52.92 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-28T09:16:52.92 controller  PID: 28100                                   0000 0000 0000 0000
+2022-01-28T09:16:52.92 controller  Start server                                 0000 0000 0000 0000
+2022-01-28T09:16:52.94 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-28T09:16:52.94 initialize  Log 36600 bytes                              0000 0000 0000 0000
+2022-01-28T09:16:53.46 initialize  Read configuration                           0DC0 0000 0003 0000
+2022-01-28T09:16:53.46 initialize  Verify configuration                         0DC0 0000 0003 0000
+2022-01-28T09:16:53.96 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-28T09:21:52.07 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-28T09:21:52.07 controller  PID: 27216                                   0000 0000 0000 0000
+2022-01-28T09:21:52.07 controller  Start server                                 0000 0000 0000 0000
+2022-01-28T09:21:52.09 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-28T09:21:52.09 initialize  Log 37400 bytes                              0000 0000 0000 0000
+2022-01-28T09:21:52.60 initialize  Read configuration                           0DC0 0000 0003 0000
+2022-01-28T09:21:52.60 initialize  Verify configuration                         0DC0 0000 0003 0000
+2022-01-28T09:21:53.12 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-28T09:22:58.12 controller  PID: 5368                                    0000 0000 0000 0000
+2022-01-28T09:22:58.12 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-28T09:22:58.12 controller  Start server                                 0000 0000 0000 0000
+2022-01-28T09:22:58.13 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-28T09:22:58.13 initialize  Log 38200 bytes                              0000 0000 0000 0000
+2022-01-28T09:22:58.65 initialize  Read configuration                           0DC0 0000 0003 0000
+2022-01-28T09:22:58.65 initialize  Verify configuration                         0DC0 0000 0003 0000
+2022-01-28T09:22:59.15 initialize  platform  win32                              0000 0000 0000 0000
+2022-01-28T09:25:49.89 controller  PID: 13472                                   0000 0000 0000 0000
+2022-01-28T09:25:49.88 controller  App start --------------------------------   0000 0000 0000 0000
+2022-01-28T09:25:49.89 controller  Start server                                 0000 0000 0000 0000
+2022-01-28T09:25:49.90 initialize  Begin Initialization                         0000 0000 0000 0000
+2022-01-28T09:25:49.90 initialize  Log 39000 bytes                              0000 0000 0000 0000
+2022-01-28T09:25:50.40 initialize  Read configuration                           0DC0 0000 0003 0000
+2022-01-28T09:25:50.41 initialize  Verify configuration                         0DC0 0000 0003 0000
+2022-01-28T09:25:50.91 initialize  platform  win32                              0000 0000 0000 0000
