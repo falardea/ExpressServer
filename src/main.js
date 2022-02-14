@@ -1,49 +1,64 @@
 // This is the main entry point for the application.
-const http = require('http');
+const express = require('express');
+const cors = require('cors');
+const bodyParser = require('body-parser');
+const app = express();
 const fs = require('fs');
+const { pageNotFound } = require('./utils/pageNotFound');
 
+const jsonParser = bodyParser.json();
 const host = '127.0.0.1';
 const port = 5000;
+const logFile = 'interlock.log';
+const dataFile = 'initData.json';
 
-const staticPathPrefix = './src/client/';
+app.use(cors());
 
-const server = http.createServer((req, res) => {
-    console.log(`page requested: ${req.url}`);
-    const routerMap = {
-        '': 'index.html',
-        'about': 'about.html',
-        'services': 'services.html'
-    }
-
-    render(res, routerMap[req.url.slice(1)]);
+app.use((req, res, next) => {
+	res.header("Access-Control-Allow-Origin", "*");
+	res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+	next();
 });
 
-function render (res, htmlFile) {
-    res.setHeader('Content-Type', 'text/html');
-    if (fs.existsSync(`${staticPathPrefix}${htmlFile}`)) {
-        res.statusCode = 200;
-        fs.createReadStream(`${staticPathPrefix}${htmlFile}`).pipe(res);
-    } else {
-        render404(res);
-    }
-}
+app.get('/getLog', (req, res) => {
+	fs.readFile(`${__dirname}/${logFile}`, 'utf-8', (err, data) => {
+		if (!err) {
+			console.log(`log data: ${data}`);
+			res.end(data);
+		} else {
+			console.log(`no data found in file ${logFile}`);
+			res.end('no data found');
+		}
+	});
+});
 
-function render404 (res) {
-    const htmlFile = 'PageNotFound.html';
-    if (fs.existsSync(`${staticPathPrefix}${htmlFile}`)) {
-        res.statusCode = 404;
-        fs.createReadStream(`${staticPathPrefix}${htmlFile}`).pipe(res);
-    } else {
-        res.statusCode = 404;
-        res.end('<!DOCTYPE html><html lang="en"><head>' +
-            '<title>Page Not Found</title>' +
-            '</head>' +
-            '<body><div><h1>Page Not Found</h1><div><small>Error locating page requested</small></div></div>' +
-            '</body>' +
-            '</html>');
-    }
-}
+app.get('/getUsers', (req, res) => {
+	const params = req.query;
+	console.log(`req params: ${params.id}`);
+	fs.readFile(`${__dirname}/${dataFile}`, (err, data) => {
+		if (!err) {
+			const userObj = JSON.parse(data);
+			console.log(`json parsed: ${userObj}`)
+			console.log(`user data: ${data}`);
+			res.end(data.toString());
+		} else {
+			console.log(`no data found in ${dataFile}`);
+			res.end(JSON.stringify({msg: `${dataFile} not found`}));
+		}
+	});
+});
 
-server.listen(port, host, () => {
-    console.log(`Hello simple world of npm`);
+app.post('/angle/:angle', jsonParser, (req, res) => {
+	const reqData = req.body;
+	console.log(`data received: ${reqData.theta}`);
+	res.header({ 'Content-Type': 'application/json' })
+	res.json({theta: reqData.theta});
+})
+
+app.use((req, res) => pageNotFound(req, res));
+
+const server = app.listen(port, () => {
+	server.host = host;
+	server.port = port;
+	console.log(`Serving API on http://${host}:${port}`);
 });
