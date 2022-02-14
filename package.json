@@ -1,7 +1,7 @@
 {
-  "name": "nodeserver",
+  "name": "expressserver",
   "version": "1.0.0",
-  "description": "A simple node server app with client",
+  "description": "A simple express server app",
   "main": "src/main.js",
   "scripts": {
     "serve": "nodemon src/main.js",

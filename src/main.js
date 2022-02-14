@@ -9,7 +9,7 @@ const { pageNotFound } = require('./utils/pageNotFound');
 const jsonParser = bodyParser.json();
 const host = '127.0.0.1';
 const port = 5000;
-const logFile = 'interlock.log';
+const logFile = 'someLogExample.log';
 const dataFile = 'initData.json';
 
 app.use(cors());
